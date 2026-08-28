@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ChichiXRayy - Premium digital services and TikTok Promote coins">
+  <title>ChichiXRayy — Premium Services</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars"></div>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="brand-mark">ฅ^•ﻌ•^ฅ</div>
+      <div>
+        <p class="eyebrow">PREMIUM DIGITAL STORE ✦ FAST & CUTE</p>
+        <h1>ChichiXRayy</h1>
+        <p class="tagline">Premium apps • Telegram • TikTok Promote</p>
+      </div>
+      <a class="tg-pill" href="https://t.me/Meoww_neko" target="_blank" rel="noopener">
+        <span class="tg-icon">➤</span> @Meoww_neko
+      </a>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <a href="#services">🏠 Home</a>
+    <a href="#services">✨ Services</a>
+    <a href="#telegram">✈️ Telegram</a>
+    <a href="#tiktok">♪ TikTok Promote</a>
+    <a href="#order">🛒 Order</a>
+    <a href="#payment">💳 Payment</a>
+  </nav>
+
+  <main>
+    <section class="section" id="services">
+      <div class="section-title">
+        <div>
+          <p class="eyebrow">CHOOSE YOUR SERVICE</p>
+          <h2>Premium Menu <span>♡</span></h2>
+        </div>
+        <input id="search" class="search" type="search" placeholder="Search service...">
+      </div>
+      <div id="serviceGrid" class="grid"></div>
+    </section>
+
+    <section class="special-wrap" id="telegram">
+      <div class="special-card telegram-card">
+        <div class="special-icon">✈</div>
+        <div>
+          <p class="eyebrow">TELEGRAM PREMIUM</p>
+          <h2>Telegram Premium</h2>
+          <div class="price-list" id="telegramPrices"></div>
+        </div>
+      </div>
+      <div class="special-card tiktok-card" id="tiktok">
+        <div class="special-icon">♪</div>
+        <div>
+          <p class="eyebrow">TIKTOK PROMOTE</p>
+          <h2>Coin Only</h2>
+          <div class="big-price">1$ = <b>6,500 ks</b></div>
+          <p class="muted">Enter the customer's TikTok username and coin amount in the order form below.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="order-layout" id="order">
+      <div class="panel">
+        <div class="panel-head">
+          <span>🛒</span>
+          <div><p class="eyebrow">PLACE YOUR ORDER</p><h2>Order Form</h2></div>
+        </div>
+        <form id="orderForm">
+          <div class="two">
+            <label>Your name<input id="customerName" required placeholder="Your name"></label>
+            <label>Telegram username<input id="customerTg" placeholder="@your_username"></label>
+          </div>
+          <label>Service
+            <select id="serviceSelect" required>
+              <option value="">— Select a service —</option>
+            </select>
+          </label>
+          <div class="two">
+            <label>Quantity / plan<input id="quantity" placeholder="e.g. 1 Month, 50 coins"></label>
+            <label>Amount (ks)<input id="amount" type="number" min="0" placeholder="0"></label>
+          </div>
+          <label>TikTok username <span class="optional">(only if ordering TikTok Promote)</span>
+            <input id="tiktokUsername" placeholder="@tiktok_username">
+          </label>
+          <label>Order details<textarea id="details" rows="4" placeholder="Account type, plan, device count, etc."></textarea></label>
+
+          <div class="upload-box">
+            <label class="upload-label" for="proof">
+              <span class="upload-icon">↑</span>
+              <b>Upload payment screenshot</b>
+              <small>JPG / PNG • max 5 MB</small>
+            </label>
+            <input id="proof" type="file" accept="image/png,image/jpeg">
+            <div id="preview" class="preview"></div>
+          </div>
+
+          <button class="primary" type="submit">SUBMIT ORDER TO TELEGRAM ✈</button>
+          <p class="form-note">After submitting, Telegram will open with your order details. Please attach the payment screenshot there too.</p>
+          <div id="formMsg" class="form-msg"></div>
+        </form>
+      </div>
+
+      <aside class="panel payment" id="payment">
+        <div class="panel-head">
+          <span>💳</span>
+          <div><p class="eyebrow">PAYMENT METHODS</p><h2>Choose one</h2></div>
+        </div>
+
+        <div class="pay-item wave">
+          <div class="pay-logo">W</div>
+          <div><b>WavePay</b><small>09257487825</small><small>Ei Ei Aung</small></div>
+        </div>
+        <div class="pay-item kpay">
+          <div class="pay-logo">K</div>
+          <div><b>KPay</b><small>09971405454</small><small>Yin Min Khant</small></div>
+        </div>
+        <div class="pay-item uab">
+          <div class="pay-logo">UAB</div>
+          <div><b>UAB Pay</b><small>09971405454</small><small>Yin Min Khant</small></div>
+        </div>
+        <div class="pay-item binance">
+          <div class="pay-logo">◆</div>
+          <div><b>Binance</b><small>ID — 1010799294</small></div>
+        </div>
+
+        <div class="note-box">
+          <b>📝 Payment Note</b>
+          <p>ငွေလွှဲရင် <strong>auto note</strong> သို့မဟုတ် <strong>shopping</strong> လို့ပဲရေးပါ။</p>
+        </div>
+
+        <a class="tg-button" href="https://t.me/Meoww_neko" target="_blank" rel="noopener">DM @Meoww_neko ↗</a>
+      </aside>
+    </section>
+
+    <section class="how">
+      <div class="section-title"><div><p class="eyebrow">HOW TO ORDER</p><h2>Easy 4 Steps ✨</h2></div></div>
+      <div class="steps">
+        <div><b>01</b><span>Pick a service</span></div>
+        <div><b>02</b><span>Fill your details</span></div>
+        <div><b>03</b><span>Pay & screenshot</span></div>
+        <div><b>04</b><span>Send order on Telegram</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>ฅ^•ﻌ•^ฅ <b>ChichiXRayy</b> · Premium Services</div>
+    <a href="https://t.me/Meoww_neko" target="_blank" rel="noopener">Telegram: @Meoww_neko</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
